@@ -1,0 +1,184 @@
+h1 {
+    text-align:center;
+    font-family:'Calibri';
+    font-size: 50px;
+    text-shadow:4px 3px 5px #000000;
+    background-color:#14213D;
+    color:#E5E5E5;
+}
+
+h3 {
+    text-align:left;
+    font-family:'Calibri';
+    font-size: 30px;
+    text-shadow:4px 3px 5px #000000;
+    background-color:#14213D;
+    color:#E5E5E5;
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #14213D;
+}
+
+div {
+    margin-top: 200px;
+    text-align:center;
+    font-family: 'Calibri';
+    }
+
+a {
+    font-family: 'Calibri';
+    color: #FFFFFF;
+}
+
+.centerImageText {
+    text-shadow:4px 3px 5px #000000;
+    text-align:center;
+    color: #FFFFFF;
+    font-size:20px;
+    background-color: #14213D;
+    font-family: 'Calibri';
+    margin-bottom: -8em;
+    }
+
+img {
+    height:200px;
+    display:inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-style: solid;
+    border-radius: 4%;
+    border-color: #FCA311;
+    border-width: 5px
+ }
+
+ul {
+    display: inline-block;
+    padding: 10px;
+    list-style: none; /*removes default bullets*/
+    color: #FFFFFF;
+    font-family: 'Calibri';
+    border-style:solid;
+    border-radius: 1%;
+    border-color: #FCA311;
+    border-width: 5px;
+    text-shadow:4px 3px 5px #000000;
+    font-size: 15px;
+    font-weight:200px;
+    
+}
+
+ul li::before {
+    content: "\1F43E"; /*add content for bullet: that code is supposed to be unicode for paw print*/
+    color:#FCA311;
+    display: inline-block; /*adds space between the bullet and the text*/
+    width: 3em; /*also adds space, change if needed*/
+    margin-left: -2em; /*also adds pace, change if needed*/ 
+    text-align: right;
+}
+
+.one {
+    color: #FFFFFF;
+    text-shadow:4px 3px 5px #000000;
+    font-family: 'Calibri';
+    font-size: 15px;
+    font-weight:200px;
+    text-align: center;
+    line-height: 10px;/*within paragraph*/
+    
+}
+
+.references {
+    color: #FFFFFF;
+    font-family: 'Calibri';
+    font-size: 15px;
+    font-weight:200px;
+    text-align: left;
+    line-height: 10px;
+}
+
+table {
+
+    text-align: center; 
+    height: 200px;
+    background-color: #14213D;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: #FCA311;
+    border-width: 5px;
+    margin-block: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    text-align:center;
+    font-family:'Calibri';
+    font-size: 20px;
+    text-shadow:4px 3px 5px #000000;
+    color:#E5E5E5;
+    margin-bottom: -1em;
+}
+
+td {
+    text-align: center;
+    
+}
+
+tr {
+    text-align:center;
+    font-family:'Calibri';
+    font-size: 15px;
+    color:#E5E5E5;
+}
+
+form {
+    width: 100%;
+    max-width: 28rem;
+}
+
+input {
+    color: inherit;
+	border: 2px solid #666;
+	padding: 1px;
+	font-size: 15px;
+	background: inherit;
+	border-radius: .25rem;
+	width: 100%; 
+}
+
+.value {
+    text-align: center;
+    fill: #FCA311;
+}
+
+.two {
+    color: #FFFFFF;
+    text-shadow:4px 3px 5px #000000;
+    font-family: 'Calibri';
+    font-size: 15px;
+    text-align: center;
+    line-height: 15px;/*within paragraph*/
+}
+
+.information {
+    color: #FFFFFF;
+    font-family: 'Calibri';
+    font-size: 15px;
+    font-weight:200px;
+    text-align: left;
+    line-height: 10px;
+}
+
+input[type="submit"] {
+    color: #FFFFFF;
+    font-family: 'Calibri';
+    font-size: 15px;
+    font-weight:200px;
+    text-align: center;
+    line-height: 10px;
+ }
